@@ -22,7 +22,7 @@
                                 <rect key="frame" x="16" y="59" width="198" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="gut-yW-Uu6">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="gut-yW-Uu6">
                                         <rect key="frame" x="8" y="8" width="182" height="164"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="16" y="262" width="198" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="0N5-Ng-BJ6">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="0N5-Ng-BJ6">
                                         <rect key="frame" x="8" y="8" width="182" height="159"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -44,12 +44,12 @@
                                 <rect key="frame" x="16" y="463" width="198" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-sq-MXy">
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-sq-MXy">
                                         <rect key="frame" x="8" y="8" width="182" height="156"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hk5-zd-o2s">
                                 <rect key="frame" x="247" y="8" width="112" height="53"/>
@@ -58,6 +58,9 @@
                                 <state key="normal" title="Show All">
                                     <color key="titleColor" red="0.007014652363801597" green="0.013916391568142906" blue="0.031411917098445596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ibButtonShowAllRees:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MUv-6n-fi5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL6-5F-RRa">
                                 <rect key="frame" x="293" y="327" width="66" height="45"/>
@@ -66,6 +69,9 @@
                                 <state key="normal" title="Hide">
                                     <color key="titleColor" red="0.007014652364" green="0.013916391570000001" blue="0.031411917099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ibButtonTwoRees:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNl-2d-Ts0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cc2-nb-T89">
                                 <rect key="frame" x="293" y="526" width="66" height="46"/>
@@ -74,6 +80,9 @@
                                 <state key="normal" title="Hide">
                                     <color key="titleColor" red="0.007014652364" green="0.013916391570000001" blue="0.031411917099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ibButtonTreeRees:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Omw-1u-u8e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByT-R7-dFM">
                                 <rect key="frame" x="293" y="128" width="66" height="42"/>
@@ -82,11 +91,19 @@
                                 <state key="normal" title="Hide">
                                     <color key="titleColor" red="0.007014652364" green="0.013916391570000001" blue="0.031411917099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ibButtonOneRees:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pfD-ei-qV4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ibImageViewOne" destination="gut-yW-Uu6" id="S74-GE-zJu"/>
+                        <outlet property="ibImageViewTree" destination="EtH-sq-MXy" id="b0k-Ox-FDQ"/>
+                        <outlet property="ibImageViewTwo" destination="0N5-Ng-BJ6" id="nzU-5S-gep"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
